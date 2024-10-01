@@ -58,21 +58,17 @@ The model used for predicting heart disease risk is a *Random Forest Classifier*
 3. *Evaluation*:
     - Evaluating the model using metrics such as accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrix.
 
-### Hyperparameter Tuning
-
-The model was further improved through hyperparameter tuning using GridSearchCV to find the optimal parameters for the Random Forest model.
-
 
 ## Results
 
-- *Model Accuracy*: ~85% (can vary depending on the dataset and hyperparameters).
-- *Evaluation Metrics*:
-    - *Precision*: 0.83
-    - *Recall*: 0.84
-    - *F1-Score*: 0.84
-    - *ROC-AUC Score*: 0.90
+- *Accuracy*: 84.62%
+- *ROC-AUC Score*: 0.91
 
+### Model Performance
 
+- *Accuracy* of 84.62% signifies that the model correctly predicts heart disease status approximately 85% of the time.
+- *ROC-AUC* of 0.91 demonstrates that the model has a high ability to distinguish between patients with and without heart disease.
+- The ROC curve shows a significant area under the curve, indicating robust performance.
 
 The model is capable of predicting heart disease risk with good accuracy and can be further improved with more advanced techniques like feature engineering and deeper hyperparameter tuning.
 
