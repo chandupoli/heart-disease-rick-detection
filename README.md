@@ -64,6 +64,7 @@ The model used for predicting heart disease risk is a *Random Forest Classifier*
 - *Accuracy*: 84.62%
 - *ROC-AUC Score*: 0.91
 
+
 ### Model Performance
 
 - *Accuracy* of 84.62% signifies that the model correctly predicts heart disease status approximately 85% of the time.
